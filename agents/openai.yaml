@@ -1,0 +1,4 @@
+interface:
+  display_name: "IELTS Learning Coach"
+  short_description: "Plan, teach, review, and adapt IELTS study cycles"
+  default_prompt: "Use $ielts-learning-coach to plan and run my next IELTS study session."
