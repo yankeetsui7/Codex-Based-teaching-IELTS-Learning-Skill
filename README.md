@@ -55,11 +55,17 @@ The skill distinguishes controlled practice, independent transfer, and exam-styl
 
 A dated study report is required after a substantive session. Weekly Reviews are required at natural-week boundaries. Full lesson plans, specialist reviews, and attention-test records are created only when they have future value.
 
+Before a substantive final response, the skill also checks that the active context, timeline, evidence, and recommendation are mutually consistent. A learner correction updates the conclusions that depend on the corrected point without erasing unrelated evidence or independent teacher judgments.
+
+Semantic changes to the skill itself follow a plan-gated review: feedback is checked against evidence and existing boundaries, uncertainties are clarified, an exact draft is reviewed by the learner, and files change only after explicit approval. The learner retains final authority while Codex is expected to exercise independent judgment and may recommend against a proposed change.
+
 ### Calendar and fatigue adaptation
 
 When calendar access exists, Codex reads real availability before planning. The learner's current message takes precedence over a stale or missing calendar event.
 
 Attention checks are used only when they help decide whether to continue, reduce load, switch, rest, or stop. The skill does not turn attention testing into another fixed exercise quota.
+
+Before teaching starts, Codex also establishes the learner's usable time for the current session; an open calendar is not treated as permission for an unbounded lesson. Writing lessons pair task understanding with callable sentence or syntax choices.
 
 ### Two learning modes
 

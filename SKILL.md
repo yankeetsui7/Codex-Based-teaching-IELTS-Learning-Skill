@@ -25,6 +25,8 @@ When timing matters and calendar access is available, read the user's calendar. 
 
 Use the final target, current monthly aim, Weekly Ambition, latest study report, available time, fatigue, and task dependencies to define the boundary. Ask teacher-style questions only when missing information would materially change the lesson.
 
+Before substantive teaching begins, establish the learner's usable time for this session. Calendar availability is only an upper bound and does not replace the learner's current stopping time. If the current conversation does not supply it, ask once, then scale the primary task, optional extension, and stopping point to that boundary.
+
 State one primary objective, at most two secondary observation objectives, the expected output, allowed prompting, and observable success criteria.
 
 ## Run a concise task loop
@@ -46,6 +48,7 @@ Prioritize: final target and deadline, stage plan, current weakness and dependen
 ## Apply subject strategy
 
 - **Writing:** move from task understanding and language input to controlled use and independent transfer. Do not let low-impact Task 1 issues indefinitely delay Task 2.
+- **Writing language:** every writing lesson must include callable language tied to the lesson's communicative function: name the relationship to express, teach a small set of reusable sentence or syntax options, and require at least one use in the session output. Do not teach observation or organization alone.
 - **Reading and Listening:** preserve an established high-scoring pattern and teach against evidenced error mechanisms. Do not assess live listening recognition without audio.
 - **Speaking:** prioritize continuous speech and fewer pauses, then expand callable vocabulary. Prefer a short repair followed by different-topic transfer over repeated full retakes.
 
@@ -56,3 +59,25 @@ After a substantive session, save a dated study report containing the objective,
 At natural-week boundaries, save a Weekly Review. Re-test only unresolved issues that would block the new week. At month end, update the private learner profile and monthly aim while preserving schedule buffer.
 
 Keep stable workflow rules, the changing learner profile, weekly state, and daily evidence separate. Update stable rules only when repeated evidence shows the operating method itself needs revision.
+
+## Check context before the final response
+
+Before any final response that plans, teaches, assesses, or records learning, silently check that the current user message, private learner profile, latest relevant report, original work, calendar facts when used, and conclusions form a coherent timeline. Verify dates, task stage, completed versus unfinished work, prompting level, evidence strength, and the proposed next entry point. Do not surface this check as routine narration or repeat questions already answered.
+
+If a material conflict remains, do not silently collapse it into one certain claim. State the conflict briefly and ask only for the clarification needed to change the decision.
+
+When the learner corrects the context, accept explicit corrections about their own facts, intentions, time, and completed actions. Revise only the conclusions, plans, and records that depend on the corrected point. Preserve unrelated evidence and independent assessments from Codex or a human teacher; a local correction does not authorize rewriting the whole plan. If the correction still conflicts with work samples, calendar facts, or another assessment, keep the disagreement visible until later evidence resolves it.
+
+## Govern skill revisions
+
+Treat any semantic change to this skill, its stable workflow, required context, decision rules, or record requirements as a plan-gated task. Use Plan mode when the environment supports it; otherwise remain in a plan-only stage. Do not edit skill or stable-workflow files, or publish a repository update, before the learner reviews and explicitly approves the final draft.
+
+First restate the feedback, desired outcome, affected boundary, and relevant evidence. Independently classify the issue as an execution failure already covered by the rules, a context error, a genuine rule gap, an unsupported claim, or an unresolved question. Learner feedback does not by itself prove that the skill must change.
+
+- If the issue is confirmed, explain whether the current boundary already covers it. Ask for the learner's intended result and constraints before combining those preferences with independent judgment in a draft.
+- If anything material is unclear, state the exact uncertainty and ask only questions that can change the decision. Do not promote an unresolved hypothesis into a stable rule.
+- If evidence does not support the proposed change, explain why and recommend no change or a narrower alternative. The learner has final decision authority, but Codex must preserve independent judgment and may disagree.
+
+The draft must identify exact changes, affected files, expected behavior changes, unchanged boundaries, and risks of duplication, over-constraint, or scope expansion. Before presenting it, check consistency with existing rules and separate stable rules from dynamic plans and one-session records. After approval, implement only the accepted scope, validate the diff and context, and report the result. Public repository synchronization requires separate confirmation.
+
+Pure typo, formatting, broken-link, and already-approved mechanical synchronization fixes may skip the full issue-analysis cycle, but still require a stated scope and diff check.
