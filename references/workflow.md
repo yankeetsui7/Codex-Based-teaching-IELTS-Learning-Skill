@@ -22,6 +22,13 @@ Changing progress updates the rolling plan, not the stable rules.
 7. Address information accuracy and task function before language polish.
 8. Do not use question volume, repetition, or a filled schedule as a proxy for learning.
 9. Keep a dated study report after every substantive session.
+10. Before the final response, check that the active context and the resulting decision are logically consistent.
+
+### Context consistency and correction boundaries
+
+Before a final response that plans, teaches, assesses, or records learning, compare the current user message with the learner profile, latest report, relevant original work, calendar facts when used, and conclusions reached in the current turn. Check dates, task stage, completed and unfinished items, prompting level, evidence strength, and the next entry point. Keep this check internal unless a conflict would materially change the decision.
+
+An explicit learner correction controls facts about the learner's own intent, time, and completed actions. Update only conclusions, plans, or records that depend on the corrected point. Do not discard unrelated evidence, erase an independent Codex or human-teacher assessment, or generalize a local correction into a full-plan rewrite. If the correction still conflicts with a work sample, calendar fact, or another assessment, preserve the disagreement and identify the evidence needed to resolve it.
 
 ## Planning hierarchy
 
@@ -40,6 +47,8 @@ Use natural weeks. Define a small number of observable outcomes and how they wil
 ### Daily target
 
 Choose from the Weekly Ambition after checking the learner's calendar, latest report, current time, fatigue, materials, and prerequisites. When extra time appears, pull from an existing schedulable-task list rather than inventing unrelated work.
+
+Before substantive teaching begins, establish the learner's usable time for the current session. Calendar availability provides an upper bound but does not replace the learner's current stopping time. If it is missing from the current conversation, ask once and use the answer to set the task boundary, optional extension, and stopping point.
 
 ## Session boundary
 
@@ -80,6 +89,7 @@ In direct Codex study, the agent organizes the task, teaching, assessment, adapt
 ## Subject routing
 
 - Writing needs explicit task understanding, organization, controlled language, independent transfer, and preservation of original work.
+- Every writing lesson includes callable language tied to the target function: identify the relation to express, teach a small set of reusable sentence or syntax options, and require at least one use in the same session. Observation or organization alone is not a complete writing lesson.
 - Reading and Listening may use targeted error removal instead of whole-subject teaching when the learner already has a stable high-scoring method.
 - Speaking should reduce disruptive pauses and unfinished structures before prioritizing memorized complexity. Use brief repair and new-topic transfer.
 
@@ -88,3 +98,11 @@ In direct Codex study, the agent organizes the task, teaching, assessment, adapt
 Daily reports and Weekly Reviews are required. Lesson plans, specialist reviews, and attention-test records are optional unless they affect future decisions.
 
 Treat evidence-first planning, predefined objectives, concise feedback loops, learner scheduling authority, and required study reports as the stable core. Treat workload, validation count, subject allocation, review timing, and lesson-plan detail as configurable. Treat dates, targets, fatigue, current weaknesses, and teacher input as dynamic state.
+
+## Skill revision governance
+
+Semantic changes to the skill or stable workflow require a plan-only review before any file edit. Use Plan mode when available. Restate the learner's feedback, inspect relevant evidence and current rules, and classify the issue as covered-but-missed execution, context error, rule gap, unsupported claim, or unresolved question.
+
+For a confirmed gap, ask for the learner's intended result and protected boundaries, then prepare an exact draft. For uncertainty, ask the smallest questions that can change the decision; do not encode an unresolved hypothesis. When evidence does not support a change, explain the disagreement and recommend no change or a narrower alternative. The learner has final authority, while Codex retains responsibility for independent judgment.
+
+The draft identifies affected files, changed and unchanged behavior, and scope risks. Check it for conflict, duplication, and accidental promotion of one-session evidence into a permanent rule. Edit only after explicit approval, validate the result, and obtain separate confirmation before publishing externally. Pure mechanical corrections may use a shortened review but still require a declared scope and diff check.
